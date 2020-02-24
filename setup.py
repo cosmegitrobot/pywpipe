@@ -10,7 +10,7 @@ setup(
     name='pywpipe',
     version='0.1',
     description='private package for named pipe server',
-    url='git@github.com:bmuyl/cosme.sim.intercom.git',
+    url='git@github.com:cosmegitrobot/pywpipe.git',
     author='BenjaminMuylDesign, Nedeleg Bigi, Thomas Berrod',
     author_email='bmuyl@mac.com, nedelegbigi@gmail.com, thomasberrod42@gmail.com',
     license='unlicense',
