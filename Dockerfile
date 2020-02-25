@@ -6,6 +6,6 @@ ADD tests /app/tests
 ADD . /app/pywpipe
 WORKDIR /app
 RUN pip install pytest
-#RUN pip install git+https://cosmegitrobot:Les-Taons-T-Acculent@github.com/bmuyl/cosme.core.git
-RUN pip install ./pywpipe
+RUN pip install git+https://github.com/cosmegitrobot/pywpipe.git
+#RUN pip install ./pywpipe
 CMD ["pytest", "tests"]
