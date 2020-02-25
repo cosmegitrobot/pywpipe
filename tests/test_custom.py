@@ -11,6 +11,6 @@ from pywpipe import *
 
 class ComeCoreSampleTest(TestCase):
     def test_basic_custom(self):
-        pserver = Server('testpipe', Mode.Slave, maxclients=100)
+        pserver = pywpipe.Server('testpipe', pywpipe.Mode.Slave, maxclients=100)
         pserver.shutdown()
         self.assertEqual(0, pserver.getclientcount())
