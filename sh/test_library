@@ -1,0 +1,2 @@
+docker build -t docker-pytest . && docker run -it docker-pytest
+docker rmi --force docker-pytest
