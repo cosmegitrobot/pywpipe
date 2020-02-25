@@ -7,7 +7,7 @@ Created on Fri Feb 21 18:19:47 2020
 
 
 from unittest import TestCase
-import pywpipe as wpipe
+from pywpipe import * as wpipe
 
 class ComeCoreSampleTest(TestCase):
     def test_basic_custom(self):
